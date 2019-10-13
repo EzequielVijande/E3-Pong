@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.2)  12 OCT 2019 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.2)  13 OCT 2019 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,24 +224,59 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
+(c:/texlive/2018/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+\c@caption@flags=\count110
+\c@ContinuedFloat=\count111
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count112
+\sf@farskip=\skip47
+\sf@captopadj=\dimen125
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count113
+\c@subfigure@save=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@subtable@save=\count117
+\c@lotdepth=\count118
+\sf@top=\skip50
+\sf@bottom=\skip51
+)
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count110
+\lst@mode=\count119
 \lst@gtempboxa=\box29
 \lst@token=\toks22
-\lst@length=\count111
-\lst@currlwidth=\dimen118
-\lst@column=\count112
-\lst@pos=\count113
-\lst@lostspace=\dimen119
-\lst@width=\dimen120
-\lst@newlines=\count114
-\lst@lineno=\count115
-\lst@maxwidth=\dimen121
+\lst@length=\count120
+\lst@currlwidth=\dimen126
+\lst@column=\count121
+\lst@pos=\count122
+\lst@lostspace=\dimen127
+\lst@width=\dimen128
+\lst@newlines=\count123
+\lst@lineno=\count124
+\lst@maxwidth=\dimen129
 
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count116
-\lst@skipnumbers=\count117
+\c@lstnumber=\count125
+\lst@skipnumbers=\count126
 \lst@framebox=\box30
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
@@ -251,7 +286,7 @@ Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
 (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count118
+\c@float@type=\count127
 \float@exts=\toks23
 \float@box=\box31
 \@float@everytoks=\toks24
@@ -259,48 +294,48 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count119
-\Gm@cntv=\count120
-\c@Gm@tempcnt=\count121
-\Gm@bindingoffset=\dimen122
-\Gm@wd@mp=\dimen123
-\Gm@odd@mp=\dimen124
-\Gm@even@mp=\dimen125
-\Gm@layoutwidth=\dimen126
-\Gm@layoutheight=\dimen127
-\Gm@layouthoffset=\dimen128
-\Gm@layoutvoffset=\dimen129
+\Gm@cnth=\count128
+\Gm@cntv=\count129
+\c@Gm@tempcnt=\count130
+\Gm@bindingoffset=\dimen130
+\Gm@wd@mp=\dimen131
+\Gm@odd@mp=\dimen132
+\Gm@even@mp=\dimen133
+\Gm@layoutwidth=\dimen134
+\Gm@layoutheight=\dimen135
+\Gm@layouthoffset=\dimen136
+\Gm@layoutvoffset=\dimen137
 \Gm@dimlist=\toks25
 ) (./GuiaRadiant.aux)
 \openout1 = `GuiaRadiant.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 21.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count122
+\c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (./GuiaRadiant.out) (./GuiaRadiant.out)
 \@outlinefile=\write3
@@ -309,16 +344,16 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen130
+\scratchcounter=\count132
+\scratchdimen=\dimen138
 \scratchbox=\box34
-\nofMPsegments=\count124
-\nofMParguments=\count125
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen131
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen139
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks27
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -337,7 +372,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count129
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count138
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -376,105 +416,123 @@ e
 [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Imagenes/NewProj.png, id=48, 1028.34187pt x 545.78906pt>
+(./GuiaRadiant.toc)
+\tf@toc=\write4
+\openout4 = `GuiaRadiant.toc'.
+
+ [1]
+<Imagenes/NewProj.png, id=65, 1028.34187pt x 545.78906pt>
 File: Imagenes/NewProj.png Graphic file (type png)
 <use Imagenes/NewProj.png>
-Package pdftex.def Info: Imagenes/NewProj.png  used on input line 35.
-(pdftex.def)             Requested size: 500.484pt x 265.63179pt.
-<Imagenes/AddSources.png, id=49, 493.0922pt x 351.56343pt>
+Package pdftex.def Info: Imagenes/NewProj.png  used on input line 41.
+(pdftex.def)             Requested size: 284.52876pt x 170.71689pt.
+<Imagenes/AddSources.png, id=66, 493.0922pt x 351.56343pt>
 File: Imagenes/AddSources.png Graphic file (type png)
 <use Imagenes/AddSources.png>
-Package pdftex.def Info: Imagenes/AddSources.png  used on input line 42.
-(pdftex.def)             Requested size: 500.484pt x 356.85187pt.
- [1pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.45 	
-       <./Imagenes/NewProj.png>]
-<Imagenes/Dispositivo.png, id=59, 485.56406pt x 439.6425pt>
+Package pdftex.def Info: Imagenes/AddSources.png  used on input line 49.
+(pdftex.def)             Requested size: 227.6227pt x 170.7119pt.
+<Imagenes/Dispositivo.png, id=68, 485.56406pt x 439.6425pt>
 File: Imagenes/Dispositivo.png Graphic file (type png)
 <use Imagenes/Dispositivo.png>
-Package pdftex.def Info: Imagenes/Dispositivo.png  used on input line 49.
-(pdftex.def)             Requested size: 500.484pt x 453.14542pt.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.52 	C
-       lickear Next nuevamente, elegir la opcion 'Lattice LSE' en la siguien...
- <./Imagenes/AddSources.PNG>]
-<Imagenes/pins.png, id=66, 1028.34187pt x 105.39375pt>
+Package pdftex.def Info: Imagenes/Dispositivo.png  used on input line 57.
+(pdftex.def)             Requested size: 284.5243pt x 284.53659pt.
+ [2 <./Imagenes/NewProj.png> <./Imagenes/AddSources.PNG>]
+<Imagenes/VerilogArch.png, id=77, 270.25969pt x 386.19281pt>
+File: Imagenes/VerilogArch.png Graphic file (type png)
+<use Imagenes/VerilogArch.png>
+Package pdftex.def Info: Imagenes/VerilogArch.png  used on input line 69.
+(pdftex.def)             Requested size: 170.71811pt x 227.62195pt.
+<Imagenes/pins.png, id=78, 1028.34187pt x 105.39375pt>
 File: Imagenes/pins.png Graphic file (type png)
 <use Imagenes/pins.png>
-Package pdftex.def Info: Imagenes/pins.png  used on input line 63.
+Package pdftex.def Info: Imagenes/pins.png  used on input line 81.
 (pdftex.def)             Requested size: 500.484pt x 51.2944pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.66 	
-       <./Imagenes/Dispositivo.PNG>]
-<Imagenes/DeviceConstraintEditor.png, id=73, 825.0825pt x 330.48468pt>
+ [3 <./Imagenes/Dispositivo.PNG> <./Imagenes/VerilogArch.PNG>]
+<Imagenes/DeviceConstraintEditor.png, id=87, 825.0825pt x 330.48468pt>
 File: Imagenes/DeviceConstraintEditor.png Graphic file (type png)
 <use Imagenes/DeviceConstraintEditor.png>
 Package pdftex.def Info: Imagenes/DeviceConstraintEditor.png  used on input lin
-e 69.
-(pdftex.def)             Requested size: 500.484pt x 200.47081pt.
-<Imagenes/SidePins.png, id=74, 252.19218pt x 391.4625pt>
+e 88.
+(pdftex.def)             Requested size: 455.2446pt x 256.08263pt.
+<Imagenes/SidePins.png, id=88, 252.19218pt x 391.4625pt>
 File: Imagenes/SidePins.png Graphic file (type png)
 <use Imagenes/SidePins.png>
-Package pdftex.def Info: Imagenes/SidePins.png  used on input line 77.
-(pdftex.def)             Requested size: 142.26564pt x 227.62183pt.
-<Imagenes/FrontPins.png, id=75, 244.66406pt x 214.55156pt>
+Package pdftex.def Info: Imagenes/SidePins.png  used on input line 96.
+(pdftex.def)             Requested size: 227.62505pt x 341.45366pt.
+<Imagenes/FrontPins.png, id=89, 244.66406pt x 214.55156pt>
 File: Imagenes/FrontPins.png Graphic file (type png)
 <use Imagenes/FrontPins.png>
-Package pdftex.def Info: Imagenes/FrontPins.png  used on input line 81.
-(pdftex.def)             Requested size: 142.26736pt x 170.71826pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
+Package pdftex.def Info: Imagenes/FrontPins.png  used on input line 97.
+(pdftex.def)             Requested size: 199.17357pt x 284.55118pt.
+ [4 <./Imagenes/pins.PNG> <./Imagenes/DeviceConstraintEditor.PNG>]
+<Imagenes/SintesisRouteo.png, id=98, 572.1375pt x 187.45032pt>
+File: Imagenes/SintesisRouteo.png Graphic file (type png)
+<use Imagenes/SintesisRouteo.png>
+Package pdftex.def Info: Imagenes/SintesisRouteo.png  used on input line 106.
+(pdftex.def)             Requested size: 284.53154pt x 227.63646pt.
+ [5 <./Imagenes/SidePins.PNG> <./Imagenes/FrontPins.PNG> <./Imagenes/SintesisRo
+uteo.PNG>]
+<Imagenes/reports.png, id=110, 1008.01593pt x 535.2497pt>
+File: Imagenes/reports.png Graphic file (type png)
+<use Imagenes/reports.png>
+Package pdftex.def Info: Imagenes/reports.png  used on input line 113.
+(pdftex.def)             Requested size: 284.51894pt x 227.62103pt.
+<Imagenes/ProgrammerUbi.png, id=111, 907.13907pt x 78.2925pt>
+File: Imagenes/ProgrammerUbi.png Graphic file (type png)
+<use Imagenes/ProgrammerUbi.png>
+Package pdftex.def Info: Imagenes/ProgrammerUbi.png  used on input line 120.
+(pdftex.def)             Requested size: 500.47832pt x 56.90694pt.
+<Imagenes/Programmer.png, id=112, 1028.34187pt x 535.2497pt>
+File: Imagenes/Programmer.png Graphic file (type png)
+<use Imagenes/Programmer.png>
+Package pdftex.def Info: Imagenes/Programmer.png  used on input line 127.
+(pdftex.def)             Requested size: 227.61673pt x 170.71985pt.
+ [6 <./Imagenes/reports.PNG> <./Imagenes/ProgrammerUbi.PNG>]
+<Imagenes/EditProg.png, id=122, 1028.34187pt x 538.26094pt>
+File: Imagenes/EditProg.png Graphic file (type png)
+<use Imagenes/EditProg.png>
+Package pdftex.def Info: Imagenes/EditProg.png  used on input line 135.
+(pdftex.def)             Requested size: 227.61673pt x 170.71936pt.
+<Imagenes/Config.png, id=123, 405.76593pt x 493.845pt>
+File: Imagenes/Config.png Graphic file (type png)
+<use Imagenes/Config.png>
+Package pdftex.def Info: Imagenes/Config.png  used on input line 140.
+(pdftex.def)             Requested size: 284.53572pt x 284.52382pt.
+ [7 <./Imagenes/Programmer.PNG> <./Imagenes/EditProg.png>]
+<Imagenes/runprog.png, id=132, 244.66406pt x 54.2025pt>
+File: Imagenes/runprog.png Graphic file (type png)
+<use Imagenes/runprog.png>
+Package pdftex.def Info: Imagenes/runprog.png  used on input line 145.
+(pdftex.def)             Requested size: 500.49684pt x 56.90851pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+ [8 <./Imagenes/Config.PNG> <./Imagenes/runprog.PNG>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.82 	\end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.82 	\end{figure}
-                   <./Imagenes/pins.PNG> <./Imagenes/DeviceConstraintEditor.PNG
->]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
- [5 <./Imagenes/SidePins.PNG> <./Imagenes/FrontPins.PNG>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
- (./GuiaRadiant.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+(./GuiaRadiant.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `GuiaRadiant.out' has not changed.
-(rerunfilecheck)             Checksum: 69CD7BD6C3EE35F7CDE8A23B3C59BF65;509.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+(rerunfilecheck)             Checksum: FBCD59A7D1BAB62CAA5FB19E4342FCB2;533.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
- 7490 strings out of 492616
- 108130 string characters out of 6132769
- 208368 words of memory out of 5000000
- 11323 multiletter control sequences out of 15000+600000
- 8883 words of font info for 33 fonts, out of 8000000 for 9000
+ 8772 strings out of 492616
+ 131262 string characters out of 6132769
+ 229253 words of memory out of 5000000
+ 12568 multiletter control sequences out of 15000+600000
+ 9191 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,32p,394b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on GuiaRadiant.pdf (6 pages, 297471 bytes).
+ 44i,7n,42p,577b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on GuiaRadiant.pdf (9 pages, 491197 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

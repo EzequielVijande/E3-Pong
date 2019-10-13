@@ -8,14 +8,15 @@
 \usepackage[utf8]{inputenc} % Unicode support (Umlauts etc.)
 \usepackage{hyperref} % Add a link to your document
 \usepackage{graphicx} % Add pictures to your document
+\usepackage{subfig}
 \usepackage{listings} % Source code formatting and highlighting
 \usepackage{float}
 \usepackage[margin=2cm]{geometry}
 
 
-\title{Guia de uso de Lattice Radiant Software}
-\date{2019-09-01}
-\author{Electronica 3}
+\title{Guía de uso de Lattice Radiant Software}
+\date{2019-Octubre}
+\author{Electrónica 3}
 
 \begin{document}
 
@@ -24,64 +25,124 @@
 \newpage
 \pagenumbering{arabic}
 
-\section{Introduccion}
+\tableofcontents
+\pagebreak
 
-\section{Descarga e instalacion}
-El software utilizado para programar la FPGA provista por la catedra es 'Lattice Radiant Software'.El mismo puede descargarse tanto para Linux como para Windows del siguiente link: \url{https://tinyurl.com/y46mth4j}
+%Empiezan las secciones del articulo
+\section{Introducción}
 
-\section{Creacion de un proyecto}
+\section{Descarga e instalación}
+El software utilizado para programar la FPGA provista por la cátedra es 'Lattice Radiant Software'.El mismo puede descargarse tanto para Linux como para Windows del siguiente link: \url{https://tinyurl.com/y46mth4j}
+
+\section{Creación de un proyecto}
 	Para crear un nuevo proyecto se debe abrir el programa recientemente instalado y elegir 'New Project'.
 	\begin{figure}[H]
-	\includegraphics[width=\textwidth]{Imagenes/NewProj.png}
-	\caption{Opcion para crear un nuevo proyecto}
+	\centering
+	\includegraphics[height=6cm,width=10cm]{Imagenes/NewProj.png}
+	\caption{Opción para crear un nuevo proyecto}
 	\end{figure}
 	
-	Luego de hacer click en New Project y en el boton de next, se debe elegir el nombre del proyecto y en que carpeta se desea guardar.Dejar el nombre bajo el campo de "Implementation" en su valor default y hacer click en next nuevamente.
-	En la siguiente ventana se puede elegir agregar archivos al nuevo proyecto.En este paso se puede elegir agregar cualquier achivo de Verilog ya existente que sea necesario para el proyecto.
+	Luego de hacer click en New Project y en el botón de next, se debe elegir el nombre del proyecto y en que carpeta se desea guardar.Dejar el nombre bajo el campo de "Implementation" en su valor default y hacer click en next nuevamente.
+	En la siguiente ventana se puede elegir agregar archivos al nuevo proyecto.En este paso se puede elegir agregar cualquier archivo de Verilog ya existente que sea necesario para el proyecto.
 	\begin{figure}[H]
-	\includegraphics[width=\textwidth]{Imagenes/AddSources.png}
+	\centering
+	\includegraphics[height=6cm,width=8cm]{Imagenes/AddSources.png}
 	\caption{Ventana para agregar archivos ya existentes}
 	\end{figure}
 	
 	Tildar las opciones como se indica en la figura anterior y hacer click en Next.
 	En la siguiente ventana se indica el dispositivo a utilizar, completar las opciones igual que como se muestra en la siguiente figura:
 	\begin{figure}[H]
-	\includegraphics[width=\textwidth]{Imagenes/Dispositivo.png}
+	\centering
+	\includegraphics[height=10cm,width=10cm]{Imagenes/Dispositivo.png}
 	\caption{Prestar especial antencion a que el campo de 'Package' y 'Part Number' coincidan con el de la imagen }
 	\end{figure}
-	Clickear Next nuevamente, elegir la opcion 'Lattice LSE' en la siguiente ventana, elegir next una vez mas y luego Finish.
+	Clickear Next nuevamente, elegir la opción 'Lattice LSE' en la siguiente ventana, elegir next una vez mas y luego Finish.
 	
 
-\subsection{Modulos de Verilog}
+\subsection{Módulos de Verilog}
+Se pueden crear/agregar archivos de Verilog al proyecto seleccionando 'File' arriba a la izquierda y luego 'New' para crear un archivo o 'Add' para agregar uno ya existente.
+
+Los archivos de Verilog del proyecto se pueden ver dentro de la carpeta llamada 'Input files'
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=8cm,width=6cm]{Imagenes/VerilogArch.png}
+	\caption{Ubicación de los proyectos de Verilog}
+	\end{figure}
+
 \subsection{Constraints}
 
-\section{Simulacion}
+\section{Simulación}
 
-\section{Asignacion de pins}
+\section{Asignación de pins}
 Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de Verilog, se debe ir al 'Device Constraint Editor'.
 	\begin{figure}[H]
+	\centering
 	\includegraphics[width=\textwidth]{Imagenes/pins.png}
-	\caption{Ubicacion del Device Constraint Editor en el Radiant}
+	\caption{Ubicación del Device Constraint Editor en el Radiant}
 	\end{figure}
 	
  Una vez abierto el Device Constraint Editor se vera algo similar a lo observado en la siguiente figura:
  	\begin{figure}[H]
-	\includegraphics[width=\textwidth]{Imagenes/DeviceConstraintEditor.png}
-	\caption{Vista de las senales de Verilog y sus pins correspondientes}
+ 	\centering
+	\includegraphics[height=9cm,width=16cm]{Imagenes/DeviceConstraintEditor.png}
+	\caption{Vista de las señales de Verilog y sus pins correspondientes}
 	\end{figure}
- En esta ventana se puede cambiar que pin corresponde a una senal del modulo de Verilog mas alto en la jerarquia.Para realizar cambios solo hace falta hacer click en el campo de 'pin' correspondiente a una senal dada y cambiar el valor numerico.Antes del nombre de cada senal hay una flecha con una direccion y color determinado que indica si la senal es de input o de output.
+ En esta ventana se puede cambiar que pin corresponde a una señal del modulo de Verilog mas alto en la jerarquía.Para realizar cambios solo hace falta hacer click en el campo de 'pin' correspondiente a una señal dada y cambiar el valor numérico.Antes del nombre de cada señal hay una flecha con una dirección y color determinado que indica si la señal es de input o de output.
  
- Hay que tener especial cuidado de asignar pins validos para las senales (utilizar los pins I/O).A continuacion se presentan algunas tablas con la funcion de algunos pins de la FPGA que utiliza la catedra(ICE40-UP5K).
+ Hay que tener especial cuidado de asignar pins validos para las señales (utilizar los pins I/O).A continuación se presentan algunas tablas con la función de algunos pins de la FPGA que utiliza la cátedra(ICE40-UP5K).
  \begin{figure}[H]
- 	\centering
-	\includegraphics[height=8cm,width=5cm]{Imagenes/SidePins.png}
+ \centering
+ \subfloat{\includegraphics[height=12cm,width=8cm]{Imagenes/SidePins.png}\label{fig:f1}}
+ \subfloat{\includegraphics[height=10cm, width=7cm]{Imagenes/FrontPins.png}\label{fig:f2}}
 	\end{figure}
- \begin{figure}[H]
- 	\centering
-	\includegraphics[height=6cm, width=5cm]{Imagenes/FrontPins.png}
-	\end{figure}
+	
 \section{Esquema de la FPGA}
 
-\section{Compilacion,sintesis y programador}
+\section{Compilación,síntesis y programador}
+Para cargar el programa en Verilog a la FPGA se deben seguir los pasos de síntesis, mappeo, routeo y exportación que aparecen arriba de la ventana de archivos.
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=8cm, width=10cm]{Imagenes/SintesisRouteo.png}
+	\end{figure}
+Se puede realizar cada uno de dichos pasos uno por vez o se puede elegir realizar todos clickeando el símbolo verde de play a la izquierda. Ya en el proceso de síntesis el compilador detectara posibles errores de sintaxis en el código de Verilog así como también los warnings.
+
+Si se desea ver en detalle los resultados de cada paso se puede ir a 'view' en la parte de arriba y luego seleccionar reports.
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=8cm, width=10cm]{Imagenes/reports.png}
+	\caption{Ventana con los reportes con cada uno de los pasos efectuados}
+	\end{figure}
+	
+Una vez que se consiguieron exitosamente los archivos de salida solo queda cargar los mismos a la FPGA.Para este paso se requiere primero conectar la FPGA a la computadora mediante un cable USB a Micro USB.Luego de conectar la FPGA se debe abrir el programmer el cual esta ubicado en la parte superior derecha del lattice como se indica en la siguiente figura.
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=2cm, width=\textwidth]{Imagenes/ProgrammerUbi.png}
+	\caption{Ubicación del programmer}
+	\end{figure}
+
+Al abrir el programmer con la FPGA ya conectada debería verse algo similar a la siguiente figura:
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=6cm, width=8cm]{Imagenes/Programmer.png}
+	\caption{Ventana luego de abrir el programmer}
+	\end{figure}
+Como se puede ver en la figura anterior debería aparecer listada la FPGA que se conecto a la PC. Se puede seleccionar la opción 'Detect Cable' a la derecha para verificar que la computadora reconoció exitosamente la FPGA. Si se tiene problemas con este paso se puede intentar esperar un poco y luego volver a intentar con 'Detect Cable', si esto no funciona se puede probar conectando la FPGA a otro puerto USB de la PC.Por si acaso siempre es mejor conectar y desconectar la FPGA con el programador cerrado y luego volver a abrirlo.
+
+Ahora solo quedo configurar la FPGA.Para eso se debe seleccionar el dispositivo, luego edit y de ahí Device Properties.
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=6cm, width=8cm]{Imagenes/EditProg.png}
+	\end{figure}
+Configurar la ventana igual que como se muestra en la siguiente figura:
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=10cm, width=10cm]{Imagenes/Config.png}
+	\end{figure}
+Para el programming file elegir el archivo con la extension '.bin' resultante de la exportación que se realizo antes de abrir el programmer.Finalmente solo queda subir el .bin a la FPGA seleccionando la opción 'Program Device' que aparece en la barra de arriba.
+	\begin{figure}[H]
+ 	\centering
+	\includegraphics[height=2cm, width=\textwidth]{Imagenes/runprog.png}
+	\end{figure}
 
 \end{document}
