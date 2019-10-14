@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Pasos para la descarga de Lattice Radiant}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1} Elecci\IeC {\'o}n del sistema operativo}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2} Ejemplo de selecci\IeC {\'o}n: caso Windows}{2}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Sign in request}{2}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Registration}{2}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}Descarga}{3}{subsection.1.5}% 
+\contentsline {subsection}{\numberline {1.6}Licencia}{3}{subsection.1.6}% 
