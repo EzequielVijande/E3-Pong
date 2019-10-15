@@ -1,15 +1,16 @@
-\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}% 
-\contentsline {section}{\numberline {2}Descarga e instalaci\IeC {\'o}n}{2}{section.2}% 
-\contentsline {subsection}{\numberline {2.1} Elecci\IeC {\'o}n del sistema operativo}{2}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2} Ejemplo de selecci\IeC {\'o}n: caso Windows}{2}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Sign in request}{2}{subsection.2.3}% 
-\contentsline {subsection}{\numberline {2.4}Registration}{3}{subsection.2.4}% 
-\contentsline {subsection}{\numberline {2.5}Descarga}{3}{subsection.2.5}% 
-\contentsline {subsection}{\numberline {2.6}Licencia}{3}{subsection.2.6}% 
-\contentsline {section}{\numberline {3}Creaci\IeC {\'o}n de un proyecto}{4}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}M\IeC {\'o}dulos de Verilog}{5}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Constraints}{6}{subsection.3.2}% 
-\contentsline {section}{\numberline {4}Simulaci\IeC {\'o}n}{6}{section.4}% 
-\contentsline {section}{\numberline {5}Asignaci\IeC {\'o}n de pins}{6}{section.5}% 
-\contentsline {section}{\numberline {6}Esquema de la FPGA}{8}{section.6}% 
-\contentsline {section}{\numberline {7}Compilaci\IeC {\'o}n,s\IeC {\'\i }ntesis y programador}{8}{section.7}% 
+\contentsline {section}{\numberline {1}Descarga e instalaci\IeC {\'o}n}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1} Elecci\IeC {\'o}n del sistema operativo}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2} Ejemplo de selecci\IeC {\'o}n: caso Windows}{2}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Sign in request}{2}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Registration}{3}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}Descarga}{3}{subsection.1.5}% 
+\contentsline {subsection}{\numberline {1.6}Instalaci\IeC {\'o}n}{3}{subsection.1.6}% 
+\contentsline {subsubsection}{\numberline {1.6.1}Ejecutar el archivo .exe}{3}{subsubsection.1.6.1}% 
+\contentsline {subsubsection}{\numberline {1.6.2}Capturas de instalaci\IeC {\'o}n}{4}{subsubsection.1.6.2}% 
+\contentsline {subsection}{\numberline {1.7}Licencia}{11}{subsection.1.7}% 
+\contentsline {section}{\numberline {2}Creaci\IeC {\'o}n de un proyecto}{12}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}M\IeC {\'o}dulos de Verilog}{13}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Time constraints}{14}{subsection.2.2}% 
+\contentsline {section}{\numberline {3}Simulaci\IeC {\'o}n}{14}{section.3}% 
+\contentsline {section}{\numberline {4}Asignaci\IeC {\'o}n de pins}{14}{section.4}% 
+\contentsline {section}{\numberline {5}Compilaci\IeC {\'o}n,s\IeC {\'\i }ntesis y programador}{16}{section.5}% 

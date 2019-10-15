@@ -1,15 +1,16 @@
-\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
-\BOOKMARK [1][-]{section.2}{Descarga e instalaci\363n}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{ Elecci\363n del sistema operativo}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{ Ejemplo de selecci\363n: caso Windows}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Sign in request}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Registration}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.5}{Descarga}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.6}{Licencia}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Creaci\363n de un proyecto}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{M\363dulos de Verilog}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.2}{Constraints}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Simulaci\363n}{}% 12
-\BOOKMARK [1][-]{section.5}{Asignaci\363n de pins}{}% 13
-\BOOKMARK [1][-]{section.6}{Esquema de la FPGA}{}% 14
-\BOOKMARK [1][-]{section.7}{Compilaci\363n,s\355ntesis y programador}{}% 15
+\BOOKMARK [1][-]{section.1}{Descarga e instalaci\363n}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{ Elecci\363n del sistema operativo}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{ Ejemplo de selecci\363n: caso Windows}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Sign in request}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Registration}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Descarga}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{Instalaci\363n}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.6.1}{Ejecutar el archivo .exe}{subsection.1.6}% 8
+\BOOKMARK [3][-]{subsubsection.1.6.2}{Capturas de instalaci\363n}{subsection.1.6}% 9
+\BOOKMARK [2][-]{subsection.1.7}{Licencia}{section.1}% 10
+\BOOKMARK [1][-]{section.2}{Creaci\363n de un proyecto}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{M\363dulos de Verilog}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Time constraints}{section.2}% 13
+\BOOKMARK [1][-]{section.3}{Simulaci\363n}{}% 14
+\BOOKMARK [1][-]{section.4}{Asignaci\363n de pins}{}% 15
+\BOOKMARK [1][-]{section.5}{Compilaci\363n,s\355ntesis y programador}{}% 16

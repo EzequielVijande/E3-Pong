@@ -29,7 +29,6 @@
 \pagebreak
 
 %Empiezan las secciones del articulo
-\section{Introducción}
 
 \section{Descarga e instalación}
 El software utilizado para programar la FPGA provista por la cátedra es 'Lattice Radiant Software'.El mismo puede descargarse tanto para Linux como para Windows del siguiente link: \url{https://tinyurl.com/y46mth4j}
@@ -65,7 +64,7 @@ Después de haber seleccionado Lattice Radiant Software, nos lleva una página d
 Para poder seguir, procedemos a registrarnos
 
 \subsection{Registration}
-A continuación dejamos una captura de cómo hay que rellenar ciertos campos específicos.
+A continuación dejamos una captura de cómo hay que rellenar ciertos campos específicos. Sugerimos utilizar el mail del itba a la hora de registrarse.
 
 \begin{figure}[H]
 \centering
@@ -82,6 +81,79 @@ Ahora que tenemos una cuenta, volvemos a la página de lattice para proceder con
 \includegraphics[width=1\linewidth]{Imagenes/5.JPG}
 \caption{Guía de descarga: Paso 5}
 \label{fig:step5}
+\end{figure}
+
+\subsection{Instalación}
+\subsubsection{Ejecutar el archivo .exe}
+
+Descomprimimos el archivo descargado y ejecutamos el archivo .exe que se encuentra dentro de la carpeta
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.1\linewidth]{Imagenes/zip.PNG}
+\caption{Archivo a descomprimir}
+\label{fig:install}
+\end{figure}
+
+\newpage
+
+\subsubsection{Capturas de instalación}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst1.JPG}
+\caption{Instalación: captura 1 }
+\label{fig:install}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst2.JPG}
+\caption{Instalación: captura 2 }
+\label{fig:install}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst3.JPG}
+\caption{Instalación: captura 3 }
+\label{fig:install}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst4.JPG}
+\caption{Instalación: captura 4 }
+\label{fig:install}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst5.JPG}
+\caption{Instalación: captura 5 }
+\label{fig:install}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst6.JPG}
+\caption{Instalación: captura 6 }
+\label{fig:install}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst7.JPG}
+\caption{Instalación: captura 7 }
+\label{fig:install}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Imagenes/inst8.JPG}
+\caption{Instalación: captura 8 }
+\label{fig:install}
 \end{figure}
 
 
@@ -136,7 +208,20 @@ Los archivos de Verilog del proyecto se pueden ver dentro de la carpeta llamada 
 	\caption{Ubicación de los proyectos de Verilog}
 	\end{figure}
 
-\subsection{Constraints}
+\subsection{Time constraints}
+Para establecer los clocks necesarios para el proyecto se puede hacer uso del 'Timing Constraint Editor'.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[height=1cm,width=\linewidth]{Imagenes/UbicacionTiming.png}
+	\caption{Ubicación del 'Timing constraint editor'}
+	\end{figure}
+Una vez en la ventana del editor se debe seleccionar el puerto de entrada que se desea como clock y elegir la frecuencia deseada para el mismo.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Imagenes/Clk_ejemplo.png}
+	\caption{Ejemplo para generar un clock de 12MHz en el puerto 'clk'}
+	\end{figure}
+Para el puerto a utilizar como clock asignarle al mismo el pin 35 de la FPGA.
 
 \section{Simulación}
 
@@ -163,7 +248,6 @@ Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de
  \subfloat{\includegraphics[height=10cm, width=7cm]{Imagenes/FrontPins.png}\label{fig:f2}}
 	\end{figure}
 	
-\section{Esquema de la FPGA}
 
 \section{Compilación,síntesis y programador}
 Para cargar el programa en Verilog a la FPGA se deben seguir los pasos de síntesis, mappeo, routeo y exportación que aparecen arriba de la ventana de archivos.
