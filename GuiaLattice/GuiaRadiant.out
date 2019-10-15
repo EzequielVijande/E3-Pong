@@ -10,7 +10,7 @@
 \BOOKMARK [2][-]{subsection.1.7}{Licencia}{section.1}% 10
 \BOOKMARK [1][-]{section.2}{Creaci\363n de un proyecto}{}% 11
 \BOOKMARK [2][-]{subsection.2.1}{M\363dulos de Verilog}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.2}{Time constraints}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Clocks y timing constraints}{section.2}% 13
 \BOOKMARK [1][-]{section.3}{Simulaci\363n}{}% 14
 \BOOKMARK [1][-]{section.4}{Asignaci\363n de pins}{}% 15
 \BOOKMARK [1][-]{section.5}{Compilaci\363n,s\355ntesis y programador}{}% 16

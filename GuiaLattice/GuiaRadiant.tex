@@ -202,28 +202,66 @@ El proceso puede demorar 1 día así que hay que procurar no hacerlo a último m
 Se pueden crear/agregar archivos de Verilog al proyecto seleccionando 'File' arriba a la izquierda y luego 'New' para crear un archivo o 'Add' para agregar uno ya existente.
 
 Los archivos de Verilog del proyecto se pueden ver dentro de la carpeta llamada 'Input files'
-\begin{figure}[H]
+	\begin{figure}[H]
 	\centering
 	\includegraphics[height=8cm,width=6cm]{Imagenes/VerilogArch.png}
 	\caption{Ubicación de los proyectos de Verilog}
 	\end{figure}
 
-\subsection{Time constraints}
-Para establecer los clocks necesarios para el proyecto se puede hacer uso del 'Timing Constraint Editor'.
+\subsection{Clocks y timing constraints}
+La FPGA utilizada tiene asociado un clock de 12MHz al pin 35 de la misma.Si se desea instanciar un clock de una frecuencia distinta se puede utilizar un modulo de Verilog que funcione para generar clocks mas lentos a partir del de 12MHz o también es posible utilizar primitivas del Radiant.
+La FPGA utilizada tiene un oscilador interno de 48MHz el cual puede ser utilizado como clock de 6MHZ, 12MHz, 24MHz o 48MHz mediante la primitiva llamada 'HSOSC'.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{Imagenes/PrimitivaClk.png}
+	\caption{Código de ejemplo de como utilizar la primitiva que utiliza el oscilador interno de 48MHz}
+	\end{figure}
+	El código anterior debe escribirse en el modulo en el que se define el wire 'clk' que se pasa como  parámetro al puerto CLKHF.El parámetro CLKHFDIV que se define luego de instanciar la primitiva, es el que define la frecuencia del clock a utilizar.Las cuatro opciones para dicho parámetro son:
+	\begin{itemize}
+	\item CLKHFDIV = "0b00" (Clock de 48MHz)
+	\item CLKHFDIV = "0b01" (Clock de 24MHz)
+	\item CLKHFDIV = "0b10" (Clock de 12MHz)
+	\item CLKHFDIV = "0b11" (Clock de 6MHz)
+	\end{itemize}
+Es necesario informarle al sintetizador la frecuencia del clock a utilizar, para ello se debe utilizar el 'Timing Constraint Editor'.
 	\begin{figure}[H]
 	\centering
 	\includegraphics[height=1cm,width=\linewidth]{Imagenes/UbicacionTiming.png}
 	\caption{Ubicación del 'Timing constraint editor'}
 	\end{figure}
-Una vez en la ventana del editor se debe seleccionar el puerto de entrada que se desea como clock y elegir la frecuencia deseada para el mismo.
+Una vez en la ventana del editor se debe seleccionar la señal utilizada como clock y elegir la frecuencia deseada para el mismo.
 	\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Imagenes/Clk_ejemplo.png}
-	\caption{Ejemplo para generar un clock de 12MHz en el puerto 'clk'}
+	\caption{Ejemplo en el que se utiliza un clock de 12MHz en la señal 'clk'}
 	\end{figure}
-Para el puerto a utilizar como clock asignarle al mismo el pin 35 de la FPGA.
+Es recomendable utilizar directamente el clock de 12MHz asignado al pin 35 de la FPGA.
 
 \section{Simulación}
+Para realizar la simulacion del proyecto se debe verificar que todos los archivos de Verilog esten incluidos para la simulacion.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Imagenes/IncSim.png}
+	\caption{Como incluir un archivo a la simulacion}
+	\end{figure}
+Luego se debe abrir el 'Simulation Wizard' en la parte superior del Radiant
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Imagenes/SimWizardUb.png}
+	\caption{Ubicacion del simulation wizard}
+	\end{figure}
+ y crear un proyecto de simulacion.
+ 	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Imagenes/SimWizard1.png}
+	\caption{Elegir en donde guardar los archivos de simulacion y elegir las opciones como se muestra en la imagen}
+	\end{figure}
+Seleccionar Next hasta llegar a la siguiente ventana y asegurarse que todas las opciones esten elegidas:
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Imagenes/SimWizard2.png}
+	\end{figure}
+
 
 \section{Asignación de pins}
 Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de Verilog, se debe ir al 'Device Constraint Editor'.
@@ -292,7 +330,7 @@ Configurar la ventana igual que como se muestra en la siguiente figura:
 Para el programming file elegir el archivo con la extension '.bin' resultante de la exportación que se realizo antes de abrir el programmer.Finalmente solo queda subir el .bin a la FPGA seleccionando la opción 'Program Device' que aparece en la barra de arriba.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=2cm, width=\textwidth]{Imagenes/runprog.png}
+	\includegraphics[width=\textwidth]{Imagenes/runprog.png}
 	\end{figure}
 
 \end{document}

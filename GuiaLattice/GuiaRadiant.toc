@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.7}Licencia}{11}{subsection.1.7}% 
 \contentsline {section}{\numberline {2}Creaci\IeC {\'o}n de un proyecto}{12}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}M\IeC {\'o}dulos de Verilog}{13}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Time constraints}{14}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.2}Clocks y timing constraints}{14}{subsection.2.2}% 
 \contentsline {section}{\numberline {3}Simulaci\IeC {\'o}n}{14}{section.3}% 
-\contentsline {section}{\numberline {4}Asignaci\IeC {\'o}n de pins}{14}{section.4}% 
-\contentsline {section}{\numberline {5}Compilaci\IeC {\'o}n,s\IeC {\'\i }ntesis y programador}{16}{section.5}% 
+\contentsline {section}{\numberline {4}Asignaci\IeC {\'o}n de pins}{16}{section.4}% 
+\contentsline {section}{\numberline {5}Compilaci\IeC {\'o}n,s\IeC {\'\i }ntesis y programador}{18}{section.5}% 
