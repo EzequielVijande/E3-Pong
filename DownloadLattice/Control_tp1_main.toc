@@ -5,4 +5,7 @@
 \contentsline {subsection}{\numberline {1.3}Sign in request}{2}{subsection.1.3}% 
 \contentsline {subsection}{\numberline {1.4}Registration}{2}{subsection.1.4}% 
 \contentsline {subsection}{\numberline {1.5}Descarga}{3}{subsection.1.5}% 
-\contentsline {subsection}{\numberline {1.6}Licencia}{3}{subsection.1.6}% 
+\contentsline {subsection}{\numberline {1.6}Instalaci\IeC {\'o}n}{3}{subsection.1.6}% 
+\contentsline {subsubsection}{\numberline {1.6.1}Ejecutar el archivo .exe}{3}{subsubsection.1.6.1}% 
+\contentsline {subsubsection}{\numberline {1.6.2}Capturas de instalaci\IeC {\'o}n}{4}{subsubsection.1.6.2}% 
+\contentsline {subsection}{\numberline {1.7}Licencia}{8}{subsection.1.7}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.24)  13 OCT 2019 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.3.24)  14 OCT 2019 21:18
 entering extended mode
 **./Control_tp1_main.tex
 (Control_tp1_main.tex
@@ -749,6 +749,31 @@ LaTeX Info: Redefining \bm on input line 207.
 ) (Control_tp1_main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
+
+LaTeX Warning: Label `fig:install' multiply defined.
+
 )
 \openout1 = `Control_tp1_main.aux'.
 
@@ -768,8 +793,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count157
 \scratchdimen=\dimen182
@@ -945,59 +969,116 @@ l.17 \newpage
               [1
 
 ]
-<images/1.JPG, id=82, 319.69438pt x 172.14313pt>
+Overfull \hbox (3.45149pt too wide) in paragraph at lines 22--24
+[]\OT1/cmr/m/n/10 Primero que na-da, va-mos al link que nos pro-vee Lat-ti-ce R
+a-diant: [][]http://www.latticesemi.com/latticeradiant[][] 
+ []
+
+<images/1.JPG, id=97, 319.69438pt x 172.14313pt>
 File: images/1.JPG Graphic file (type jpg)
 <use images/1.JPG>
-Package pdftex.def Info: images/1.JPG  used on input line 31.
+Package pdftex.def Info: images/1.JPG  used on input line 29.
 (pdftex.def)             Requested size: 187.78532pt x 101.117pt.
-<images/2.JPG, id=83, 897.85437pt x 185.19188pt>
+<images/2.JPG, id=98, 897.85437pt x 185.19188pt>
 File: images/2.JPG Graphic file (type jpg)
 <use images/2.JPG>
-Package pdftex.def Info: images/2.JPG  used on input line 41.
+Package pdftex.def Info: images/2.JPG  used on input line 39.
 (pdftex.def)             Requested size: 469.47049pt x 96.83156pt.
-<images/3.JPG, id=84, 306.14375pt x 196.735pt>
+<images/3.JPG, id=99, 306.14375pt x 196.735pt>
 File: images/3.JPG Graphic file (type jpg)
 <use images/3.JPG>
-Package pdftex.def Info: images/3.JPG  used on input line 51.
+Package pdftex.def Info: images/3.JPG  used on input line 49.
 (pdftex.def)             Requested size: 187.78532pt x 120.67459pt.
-<images/4.JPG, id=85, 335.75438pt x 124.465pt>
+<images/4.JPG, id=100, 335.75438pt x 124.465pt>
 File: images/4.JPG Graphic file (type jpg)
 <use images/4.JPG>
-Package pdftex.def Info: images/4.JPG  used on input line 63.
+Package pdftex.def Info: images/4.JPG  used on input line 61.
 (pdftex.def)             Requested size: 187.78532pt x 69.61255pt.
- [2 <./images/1.JPG> <./images/2.JPG> <./images/3.JPG>]
-<images/5.JPG, id=93, 652.93938pt x 264.99pt>
+[2 <./images/1.JPG> <./images/2.JPG> <./images/3.JPG>]
+<images/5.JPG, id=108, 652.93938pt x 264.99pt>
 File: images/5.JPG Graphic file (type jpg)
 <use images/5.JPG>
-Package pdftex.def Info: images/5.JPG  used on input line 73.
+Package pdftex.def Info: images/5.JPG  used on input line 71.
 (pdftex.def)             Requested size: 469.47049pt x 190.52983pt.
-<images/6.JPG, id=95, 547.04375pt x 255.45438pt>
+<images/zip.PNG, id=109, 78.79437pt x 100.375pt>
+File: images/zip.PNG Graphic file (type png)
+<use images/zip.PNG>
+Package pdftex.def Info: images/zip.PNG  used on input line 82.
+(pdftex.def)             Requested size: 46.9499pt x 59.80885pt.
+ [3 <./images/4.JPG> <./images/5.JPG> <./images/zip.PNG>]
+<images/inst1.JPG, id=117, 600.74437pt x 484.81125pt>
+File: images/inst1.JPG Graphic file (type jpg)
+<use images/inst1.JPG>
+Package pdftex.def Info: images/inst1.JPG  used on input line 93.
+(pdftex.def)             Requested size: 375.57782pt x 303.10985pt.
+<images/inst2.JPG, id=118, 599.99156pt x 484.05844pt>
+File: images/inst2.JPG Graphic file (type jpg)
+<use images/inst2.JPG>
+Package pdftex.def Info: images/inst2.JPG  used on input line 100.
+(pdftex.def)             Requested size: 375.57782pt x 303.01587pt.
+<images/inst3.JPG, id=119, 599.99156pt x 483.30562pt>
+File: images/inst3.JPG Graphic file (type jpg)
+<use images/inst3.JPG>
+Package pdftex.def Info: images/inst3.JPG  used on input line 107.
+(pdftex.def)             Requested size: 375.57782pt x 302.54462pt.
+ [4 <./images/inst1.JPG> <./images/inst2.JPG>]
+<images/inst4.JPG, id=126, 603.0028pt x 481.04718pt>
+File: images/inst4.JPG Graphic file (type jpg)
+<use images/inst4.JPG>
+Package pdftex.def Info: images/inst4.JPG  used on input line 114.
+(pdftex.def)             Requested size: 375.57782pt x 299.61877pt.
+<images/inst5.JPG, id=127, 599.99156pt x 482.55281pt>
+File: images/inst5.JPG Graphic file (type jpg)
+<use images/inst5.JPG>
+Package pdftex.def Info: images/inst5.JPG  used on input line 121.
+(pdftex.def)             Requested size: 375.57782pt x 302.07336pt.
+
+[5 <./images/inst3.JPG> <./images/inst4.JPG>]
+<images/inst6.JPG, id=134, 599.23875pt x 481.8pt>
+File: images/inst6.JPG Graphic file (type jpg)
+<use images/inst6.JPG>
+Package pdftex.def Info: images/inst6.JPG  used on input line 128.
+(pdftex.def)             Requested size: 375.57782pt x 301.97705pt.
+<images/inst7.JPG, id=135, 601.4972pt x 484.05844pt>
+File: images/inst7.JPG Graphic file (type jpg)
+<use images/inst7.JPG>
+Package pdftex.def Info: images/inst7.JPG  used on input line 136.
+(pdftex.def)             Requested size: 375.57782pt x 302.2551pt.
+ [6 <./images/inst5.JPG> <./images/inst6.JPG>]
+<images/inst8.JPG, id=143, 601.4972pt x 482.55281pt>
+File: images/inst8.JPG Graphic file (type jpg)
+<use images/inst8.JPG>
+Package pdftex.def Info: images/inst8.JPG  used on input line 144.
+(pdftex.def)             Requested size: 375.57782pt x 301.31496pt.
+<images/6.JPG, id=145, 547.04375pt x 255.45438pt>
 File: images/6.JPG Graphic file (type jpg)
 <use images/6.JPG>
-Package pdftex.def Info: images/6.JPG  used on input line 87.
+Package pdftex.def Info: images/6.JPG  used on input line 158.
 (pdftex.def)             Requested size: 469.47049pt x 219.23041pt.
-
-[3 <./images/4.JPG> <./images/5.JPG> <./images/6.JPG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (Control_tp1_main.aux
+ [7 <./images/inst7.JPG> <./images/inst8.JPG>] [8 <./images/6.JPG>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+(Control_tp1_main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `Control_tp1_main.out' has not changed.
-(rerunfilecheck)             Checksum: 564188E8E67EE3C16FBEA3A859FE2A82;492.
+(rerunfilecheck)             Checksum: 3AF3D64A7E2CC55975CBE6F4AA58FF32;727.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 21409 strings out of 492945
- 391669 string characters out of 3135513
- 501866 words of memory out of 3000000
- 24843 multiletter control sequences out of 15000+200000
+ 21476 strings out of 492945
+ 392722 string characters out of 3135513
+ 501954 words of memory out of 3000000
+ 24883 multiletter control sequences out of 15000+200000
  25064 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,85p,817b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1008,9 +1089,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on Control_tp1_main.pdf (4 pages, 599089 bytes).
+Output written on Control_tp1_main.pdf (9 pages, 1483732 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
