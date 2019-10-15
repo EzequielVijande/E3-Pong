@@ -33,6 +33,72 @@
 
 \section{Descarga e instalación}
 El software utilizado para programar la FPGA provista por la cátedra es 'Lattice Radiant Software'.El mismo puede descargarse tanto para Linux como para Windows del siguiente link: \url{https://tinyurl.com/y46mth4j}
+\subsection{ Elección del sistema operativo}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{Imagenes/1.JPG}
+\caption{Guía de descarga: Paso 1}
+\label{fig:step1}
+\end{figure}
+
+
+\subsection{ Ejemplo de selección: caso Windows}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Imagenes/2.JPG}
+\caption{Guía de descarga: Paso 2}
+\label{fig:step2}
+\end{figure}
+
+\subsection{Sign in request}
+Después de haber seleccionado Lattice Radiant Software, nos lleva una página donde para poder entrar tenemos que estar registrados.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{Imagenes/3.JPG}
+\caption{Guía de descarga: Paso 3}
+\label{fig:step3}
+\end{figure}
+
+Para poder seguir, procedemos a registrarnos
+
+\subsection{Registration}
+A continuación dejamos una captura de cómo hay que rellenar ciertos campos específicos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\linewidth]{Imagenes/4.JPG}
+\caption{Guía de descarga: Paso 4}
+\label{fig:step4}
+\end{figure}
+
+\subsection{Descarga}
+Ahora que tenemos una cuenta, volvemos a la página de lattice para proceder con la descarga. En esa página, aceptamos términos y condiciones, y a continuación clickeamos en Download.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Imagenes/5.JPG}
+\caption{Guía de descarga: Paso 5}
+\label{fig:step5}
+\end{figure}
+
+
+
+\subsection{Licencia}
+Para tener una licencia, hay que generar una solicitud en
+\href{https://www.latticesemi.com/Support/Licensing}{https://www.latticesemi.com/Support/Licensing}.
+En esa página, vamos la parte de Lattice Radiant Software y clickeamos en Request a Free License.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Imagenes/6.JPG}
+\caption{Guía de descarga: Paso 6}
+\label{fig:step6}
+\end{figure}
+
+El proceso puede demorar 1 día así que hay que procurar no hacerlo a último momento.
 
 \section{Creación de un proyecto}
 	Para crear un nuevo proyecto se debe abrir el programa recientemente instalado y elegir 'New Project'.
@@ -103,7 +169,7 @@ Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de
 Para cargar el programa en Verilog a la FPGA se deben seguir los pasos de síntesis, mappeo, routeo y exportación que aparecen arriba de la ventana de archivos.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=8cm, width=10cm]{Imagenes/SintesisRouteo.png}
+	\includegraphics[height=8cm, width=\textwidth]{Imagenes/SintesisRouteo.png}
 	\end{figure}
 Se puede realizar cada uno de dichos pasos uno por vez o se puede elegir realizar todos clickeando el símbolo verde de play a la izquierda. Ya en el proceso de síntesis el compilador detectara posibles errores de sintaxis en el código de Verilog así como también los warnings.
 
