@@ -1,0 +1,300 @@
+Removed Pin From Net: NetName=3.3V Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=D1-1
+Removed Pin From Net: NetName=NetD1_2 Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=D2-1
+Removed Pin From Net: NetName=NetD2_2 Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=D3-1
+Removed Pin From Net: NetName=NetD3_2 Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=D4-1
+Removed Pin From Net: NetName=NetD4_2 Pin=D4-2
+Removed Pin From Net: NetName=GND Pin=J1-1
+Removed Pin From Net: NetName=NetC2_1 Pin=J1-2
+Removed Pin From Net: NetName=NetC2_1 Pin=R1-1
+Removed Pin From Net: NetName=NetC1_1 Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R1-3
+Removed Pin From Net: NetName=3.3V Pin=R2-1
+Removed Pin From Net: NetName=NetD1_2 Pin=R3-2
+Removed Pin From Net: NetName=GND Pin=R4-1
+Removed Pin From Net: NetName=3.3V Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=R5-3
+Removed Pin From Net: NetName=NetD2_2 Pin=R6-2
+Removed Pin From Net: NetName=3.3V Pin=R7-1
+Removed Pin From Net: NetName=GND Pin=R8-1
+Removed Pin From Net: NetName=3.3V Pin=R9-1
+Removed Pin From Net: NetName=3.3V Pin=R12-1
+Removed Pin From Net: NetName=GND Pin=R12-3
+Removed Pin From Net: NetName=NetC1_1 Pin=U1-4
+Removed Pin From Net: NetName=NetC2_1 Pin=U2-1
+Change Component DesignItemId : Designator=D1 Old DesignItemId=DIODO New DesignItemId=DIODO SCHOTTKY
+Change Component DesignItemId : Designator=D2 Old DesignItemId=DIODO New DesignItemId=DIODO SCHOTTKY
+Change Component DesignItemId : Designator=D3 Old DesignItemId=DIODO New DesignItemId=DIODO SCHOTTKY
+Change Component DesignItemId : Designator=D4 Old DesignItemId=DIODO New DesignItemId=DIODO SCHOTTKY
+Change Component DesignItemId : Designator=J1 Old DesignItemId=MOLEX2 New DesignItemId=CON8*2
+Change Component DesignItemId : Designator=R5 Old DesignItemId=POTENCIOMETRO New DesignItemId=RES
+Change Component DesignItemId : Designator=R12 Old DesignItemId=POTENCIOMETRO New DesignItemId=RES
+Change Component DesignItemId : Designator=R1 Old DesignItemId=PRESET New DesignItemId=RES
+Change Component Footprint: Designator=C3 Old Footprint=CAP200 New Footprint=CAP100
+Change Component Footprint: Designator=J1 Old Footprint=MOLEX2 New Footprint=SIP8*2
+Change Component Footprint: Designator=R5 Old Footprint=POTENCIOMETRO New Footprint=RES300
+Change Component Footprint: Designator=R12 Old Footprint=POTENCIOMETRO New Footprint=RES400
+Change Component Footprint: Designator=R1 Old Footprint=PRESET V New Footprint=RES300
+Change Component Footprint: Designator=R2 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R3 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R4 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R6 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R7 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R8 Old Footprint=RES400 New Footprint=RES300
+Change Component Footprint: Designator=R9 Old Footprint=RES400 New Footprint=RES300
+Change Component Comment : Designator=C1 Old Comment=CAP New Comment=1u
+Change Component Comment : Designator=C2 Old Comment=CAP New Comment=1u
+Change Component Comment : Designator=C3 Old Comment=CAP New Comment=100n
+Change Component Comment : Designator=D1 Old Comment=DIODO New Comment=1N4148
+Change Component Comment : Designator=D2 Old Comment=DIODO New Comment=1N4148
+Change Component Comment : Designator=D3 Old Comment=DIODO New Comment=1N4148
+Change Component Comment : Designator=D4 Old Comment=DIODO New Comment=1N4148
+Change Component Comment : Designator=J1 Old Comment=MOLEX2 New Comment=SHIELD
+Change Component Comment : Designator=R5 Old Comment=POTENCIOMETRO New Comment=22K
+Change Component Comment : Designator=R12 Old Comment=POTENCIOMETRO New Comment=RES
+Change Component Comment : Designator=R1 Old Comment=PRESET New Comment=1K
+Change Component Comment : Designator=R4 Old Comment=RES New Comment=1K
+Change Component Comment : Designator=R7 Old Comment=RES New Comment=1K
+Change Component Comment : Designator=R6 Old Comment=RES New Comment=22K
+Change Component Comment : Designator=R2 Old Comment=RES New Comment=56K
+Change Component Comment : Designator=R3 Old Comment=RES New Comment=56K
+Change Component Comment : Designator=R8 Old Comment=RES New Comment=100
+Change Component Comment : Designator=R9 Old Comment=RES New Comment=100
+Change Component Designator: OldDesignator=U1 NewDesignator=Comp
+Change Component Designator: OldDesignator=U2 NewDesignator=REG
+Change Component Library : Designator=D1 Old Library=LIBEBAL.IntLib New Library=LIB PIO IX.IntLib
+Change Component Library : Designator=D4 Old Library=LIBEBAL.IntLib New Library=LIB PIO IX.IntLib
+Added Component: Designator=BZ1(BUZZER 12MM)
+Added Component: Designator=C1(CAP200)
+Added Component: Designator=CapReg1(CAP200)
+Added Component: Designator=CapReg2(CAP200)
+Added Component: Designator=D1(DO41)
+Added Component: Designator=D2(DO41)
+Added Component: Designator=D3(DO41)
+Added Component: Designator=D4(DO41)
+Added Component: Designator=D5(DO41)
+Added Component: Designator=DS1(DISPLAY_LED_0.3")
+Added Component: Designator=DS2(DISPLAY_LED_0.3")
+Added Component: Designator=J1(MOLEX2)
+Added Component: Designator=J2(MOLEX2)
+Added Component: Designator=J3(MOLEX2)
+Added Component: Designator=J4(JUMPER2)
+Added Component: Designator=J5(MOLEX2)
+Added Component: Designator=JoyLeft(HDR1X5)
+Added Component: Designator=JoyRight(HDR1X5)
+Added Component: Designator=P6(HDR1X3)
+Added Component: Designator=R1(RES400)
+Added Component: Designator=R2(RES400)
+Added Component: Designator=R3(RES400)
+Added Component: Designator=R4(RES400)
+Added Component: Designator=R5(RES400)
+Added Component: Designator=R6(RES400)
+Added Component: Designator=R7(RES400)
+Added Component: Designator=R8(RES400)
+Added Component: Designator=R9(RES400)
+Added Component: Designator=S1(TACTSWITCH)
+Added Component: Designator=S1(TACTSWITCH)
+Added Component: Designator=S2(TACTSWITCH)
+Added Component: Designator=U3(DIP16)
+Added Component: Designator=U4(DIP16)
+Added Component: Designator=XYLeft(HDR1X3)
+Added Pin To Net: NetName=GND Pin=BZ1-2
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=CapReg1-2
+Added Pin To Net: NetName=3.3V Pin=CapReg2-1
+Added Pin To Net: NetName=GND Pin=CapReg2-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=NetC1_1 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=NetC2_1 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=3.3V Pin=JoyLeft-4
+Added Pin To Net: NetName=GND Pin=JoyLeft-5
+Added Pin To Net: NetName=3.3V Pin=JoyRight-4
+Added Pin To Net: NetName=GND Pin=JoyRight-5
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=3.3V Pin=R2-1
+Added Pin To Net: NetName=NetD1_2 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=NetC1_1 Pin=R5-2
+Added Pin To Net: NetName=NetC2_1 Pin=R6-1
+Added Pin To Net: NetName=NetD2_2 Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=3.3V Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-4
+Change Net Name : Old Net Name=NetR10_1 New Net Name=NetComp_8
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetComp_14
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetComp_12
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=5V Pin=CapReg1-1
+Added Pin To Net: NetName=5V Pin=Comp-4
+Added Pin To Net: NetName=5V Pin=J1-2
+Added Pin To Net: NetName=5V Pin=REG-1
+Added Net: Name=5V
+Added Net: Name=B1
+Added Net: Name=B2
+Added Pin To Net: NetName=B Pin=R7-1
+Added Net: Name=B
+Added Pin To Net: NetName=G Pin=R4-1
+Added Net: Name=G
+Added Pin To Net: NetName=H_SYNC Pin=R8-1
+Added Net: Name=H_SYNC
+Added Pin To Net: NetName=NetComp_1 Pin=Comp-1
+Added Pin To Net: NetName=NetComp_1 Pin=R3-1
+Added Net: Name=NetComp_1
+Added Pin To Net: NetName=NetComp_2 Pin=Comp-2
+Added Pin To Net: NetName=NetComp_2 Pin=R2-2
+Added Pin To Net: NetName=NetComp_2 Pin=R4-2
+Added Net: Name=NetComp_2
+Added Pin To Net: NetName=NetComp_3 Pin=Comp-3
+Added Pin To Net: NetName=NetComp_3 Pin=Comp-6
+Added Pin To Net: NetName=NetComp_3 Pin=XYLeft-2
+Added Net: Name=NetComp_3
+Added Pin To Net: NetName=NetComp_5 Pin=Comp-5
+Added Pin To Net: NetName=NetComp_5 Pin=R7-2
+Added Pin To Net: NetName=NetComp_5 Pin=R8-2
+Added Net: Name=NetComp_5
+Added Pin To Net: NetName=NetComp_7 Pin=Comp-7
+Added Pin To Net: NetName=NetComp_7 Pin=R6-1
+Added Net: Name=NetComp_7
+Added Pin To Net: NetName=NetComp_9 Pin=Comp-9
+Added Pin To Net: NetName=NetComp_9 Pin=R9-2
+Added Pin To Net: NetName=NetComp_9 Pin=R11-2
+Added Net: Name=NetComp_9
+Added Pin To Net: NetName=NetComp_10 Pin=Comp-10
+Added Pin To Net: NetName=NetComp_10 Pin=Comp-13
+Added Pin To Net: NetName=NetComp_10 Pin=P6-2
+Added Net: Name=NetComp_10
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R5-1
+Added Pin To Net: NetName=NetD2_1 Pin=S1-4
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R6-2
+Added Pin To Net: NetName=NetD3_1 Pin=S2-2
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetDS1_2 Pin=DS1-2
+Added Pin To Net: NetName=NetDS1_2 Pin=U3-15
+Added Net: Name=NetDS1_2
+Added Pin To Net: NetName=NetDS1_3 Pin=DS1-3
+Added Pin To Net: NetName=NetDS1_3 Pin=U3-14
+Added Net: Name=NetDS1_3
+Added Pin To Net: NetName=NetDS1_4 Pin=DS1-4
+Added Pin To Net: NetName=NetDS1_4 Pin=U3-9
+Added Net: Name=NetDS1_4
+Added Pin To Net: NetName=NetDS1_5 Pin=DS1-5
+Added Pin To Net: NetName=NetDS1_5 Pin=U3-10
+Added Net: Name=NetDS1_5
+Added Pin To Net: NetName=NetDS1_8 Pin=DS1-8
+Added Pin To Net: NetName=NetDS1_8 Pin=U3-11
+Added Net: Name=NetDS1_8
+Added Pin To Net: NetName=NetDS1_9 Pin=DS1-9
+Added Pin To Net: NetName=NetDS1_9 Pin=U3-12
+Added Net: Name=NetDS1_9
+Added Pin To Net: NetName=NetDS1_10 Pin=DS1-10
+Added Pin To Net: NetName=NetDS1_10 Pin=U3-13
+Added Net: Name=NetDS1_10
+Added Pin To Net: NetName=NetDS2_2 Pin=DS2-2
+Added Pin To Net: NetName=NetDS2_2 Pin=U4-15
+Added Net: Name=NetDS2_2
+Added Pin To Net: NetName=NetDS2_3 Pin=DS2-3
+Added Pin To Net: NetName=NetDS2_3 Pin=U4-14
+Added Net: Name=NetDS2_3
+Added Pin To Net: NetName=NetDS2_4 Pin=DS2-4
+Added Pin To Net: NetName=NetDS2_4 Pin=U4-9
+Added Net: Name=NetDS2_4
+Added Pin To Net: NetName=NetDS2_5 Pin=DS2-5
+Added Pin To Net: NetName=NetDS2_5 Pin=U4-10
+Added Net: Name=NetDS2_5
+Added Pin To Net: NetName=NetDS2_8 Pin=DS2-8
+Added Pin To Net: NetName=NetDS2_8 Pin=U4-11
+Added Net: Name=NetDS2_8
+Added Pin To Net: NetName=NetDS2_9 Pin=DS2-9
+Added Pin To Net: NetName=NetDS2_9 Pin=U4-12
+Added Net: Name=NetDS2_9
+Added Pin To Net: NetName=NetDS2_10 Pin=DS2-10
+Added Pin To Net: NetName=NetDS2_10 Pin=U4-13
+Added Net: Name=NetDS2_10
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=J4-2
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJoyLeft_1 Pin=JoyLeft-1
+Added Pin To Net: NetName=NetJoyLeft_1 Pin=R5-1
+Added Net: Name=NetJoyLeft_1
+Added Pin To Net: NetName=NetJoyLeft_2 Pin=JoyLeft-2
+Added Pin To Net: NetName=NetJoyLeft_2 Pin=XYLeft-3
+Added Net: Name=NetJoyLeft_2
+Added Pin To Net: NetName=NetJoyLeft_3 Pin=JoyLeft-3
+Added Pin To Net: NetName=NetJoyLeft_3 Pin=XYLeft-1
+Added Net: Name=NetJoyLeft_3
+Added Pin To Net: NetName=NetJoyRight_1 Pin=JoyRight-1
+Added Pin To Net: NetName=NetJoyRight_1 Pin=R12-2
+Added Net: Name=NetJoyRight_1
+Added Pin To Net: NetName=NetJoyRight_2 Pin=JoyRight-2
+Added Pin To Net: NetName=NetJoyRight_2 Pin=P6-3
+Added Net: Name=NetJoyRight_2
+Added Pin To Net: NetName=NetJoyRight_3 Pin=JoyRight-3
+Added Pin To Net: NetName=NetJoyRight_3 Pin=P6-1
+Added Net: Name=NetJoyRight_3
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=S1-3
+Added Net: Name=NetR1_1
+Added Net: Name=NetRGB1_2
+Added Pin To Net: NetName=R Pin=R1-1
+Added Net: Name=R
+Added Pin To Net: NetName=V_SYNC Pin=J1-2
+Added Pin To Net: NetName=V_SYNC Pin=R9-1
+Added Net: Name=V_SYNC
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=J2-2
+Added Pin To Net: NetName=VCC Pin=J4-1
+Added Pin To Net: NetName=VCC Pin=J5-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-2
+Added Net: Name=VCC
+Added Pin To Net: NetName=VGA_1 Pin=D1-1
+Added Pin To Net: NetName=VGA_1 Pin=R1-2
+Added Net: Name=VGA_1
+Added Pin To Net: NetName=VGA_2 Pin=D4-1
+Added Pin To Net: NetName=VGA_2 Pin=R4-2
+Added Net: Name=VGA_2
+Added Pin To Net: NetName=VGA_3 Pin=D5-1
+Added Pin To Net: NetName=VGA_3 Pin=R7-2
+Added Net: Name=VGA_3
+Added Pin To Net: NetName=VGA_13 Pin=R8-2
+Added Net: Name=VGA_13
+Added Pin To Net: NetName=VGA_14 Pin=R9-2
+Added Net: Name=VGA_14
+Added Class: Name=PlacaVGAEsquematico
+Added Member To Class: ClassName=PlacaE3 Member=Component BZ1 BUZZER
+Added Member To Class: ClassName=PlacaE3 Member=Component DS1 DISPLAY 7SEG K
+Added Member To Class: ClassName=PlacaE3 Member=Component DS2 DISPLAY 7SEG K
+Added Member To Class: ClassName=PlacaE3 Member=Component JoyLeft Header 5
+Added Member To Class: ClassName=PlacaE3 Member=Component JoyRight Header 5
+Added Member To Class: ClassName=PlacaE3 Member=Component P6 XYRight
+Added Member To Class: ClassName=PlacaE3 Member=Component S1 TACT SWITCH
+Added Member To Class: ClassName=PlacaE3 Member=Component U3 CD4511
+Added Member To Class: ClassName=PlacaE3 Member=Component U4 CD4511
+Added Member To Class: ClassName=PlacaE3 Member=Component XYLeft Header 3
+Added Room: Name=PlacaE3
+Added Room: Name=PlacaVGAEsquematico
