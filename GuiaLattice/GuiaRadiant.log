@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.2)  15 OCT 2019 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.2)  16 OCT 2019 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,31 +613,31 @@ File: Imagenes/DeviceConstraintEditor.png Graphic file (type png)
 <use Imagenes/DeviceConstraintEditor.png>
 Package pdftex.def Info: Imagenes/DeviceConstraintEditor.png  used on input lin
 e 277.
-(pdftex.def)             Requested size: 455.2446pt x 256.08263pt.
+(pdftex.def)             Requested size: 500.49208pt x 256.08263pt.
  [16 <./Imagenes/SimWizard2.PNG> <./Imagenes/pins.PNG>]
 <Imagenes/SidePins.png, id=233, 252.19218pt x 391.4625pt>
 File: Imagenes/SidePins.png Graphic file (type png)
 <use Imagenes/SidePins.png>
 Package pdftex.def Info: Imagenes/SidePins.png  used on input line 285.
-(pdftex.def)             Requested size: 227.62505pt x 341.45366pt.
+(pdftex.def)             Requested size: 250.2444pt x 341.45366pt.
 <Imagenes/FrontPins.png, id=234, 244.66406pt x 214.55156pt>
 File: Imagenes/FrontPins.png Graphic file (type png)
 <use Imagenes/FrontPins.png>
 Package pdftex.def Info: Imagenes/FrontPins.png  used on input line 286.
-(pdftex.def)             Requested size: 199.17357pt x 284.55118pt.
+(pdftex.def)             Requested size: 250.24841pt x 284.55118pt.
  [17 <./Imagenes/DeviceConstraintEditor.PNG>]
 <Imagenes/SintesisRouteo.png, id=241, 572.1375pt x 187.45032pt>
 File: Imagenes/SintesisRouteo.png Graphic file (type png)
 <use Imagenes/SintesisRouteo.png>
 Package pdftex.def Info: Imagenes/SintesisRouteo.png  used on input line 294.
-(pdftex.def)             Requested size: 500.48813pt x 227.63646pt.
- [18 <./Imagenes/SidePins.PNG> <./Imagenes/FrontPins.PNG> <./Imagenes/SintesisR
-outeo.PNG>]
-<Imagenes/reports.png, id=254, 1008.01593pt x 535.2497pt>
+(pdftex.def)             Requested size: 400.38875pt x 170.7259pt.
+<Imagenes/reports.png, id=242, 1008.01593pt x 535.2497pt>
 File: Imagenes/reports.png Graphic file (type png)
 <use Imagenes/reports.png>
 Package pdftex.def Info: Imagenes/reports.png  used on input line 301.
-(pdftex.def)             Requested size: 284.51894pt x 227.62103pt.
+(pdftex.def)             Requested size: 500.48447pt x 227.62103pt.
+ [18 <./Imagenes/SidePins.PNG> <./Imagenes/FrontPins.PNG> <./Imagenes/SintesisR
+outeo.PNG>]
 <Imagenes/ProgrammerUbi.png, id=255, 907.13907pt x 78.2925pt>
 File: Imagenes/ProgrammerUbi.png Graphic file (type png)
 <use Imagenes/ProgrammerUbi.png>
@@ -647,13 +647,13 @@ Package pdftex.def Info: Imagenes/ProgrammerUbi.png  used on input line 308.
 File: Imagenes/Programmer.png Graphic file (type png)
 <use Imagenes/Programmer.png>
 Package pdftex.def Info: Imagenes/Programmer.png  used on input line 315.
-(pdftex.def)             Requested size: 227.61673pt x 170.71985pt.
+(pdftex.def)             Requested size: 400.39268pt x 227.62103pt.
  [19 <./Imagenes/reports.PNG> <./Imagenes/ProgrammerUbi.PNG>]
 <Imagenes/EditProg.png, id=265, 1028.34187pt x 538.26094pt>
 File: Imagenes/EditProg.png Graphic file (type png)
 <use Imagenes/EditProg.png>
 Package pdftex.def Info: Imagenes/EditProg.png  used on input line 323.
-(pdftex.def)             Requested size: 227.61673pt x 170.71936pt.
+(pdftex.def)             Requested size: 450.43196pt x 227.62035pt.
 <Imagenes/Config.png, id=266, 405.76593pt x 493.845pt>
 File: Imagenes/Config.png Graphic file (type png)
 <use Imagenes/Config.png>
@@ -664,20 +664,20 @@ Package pdftex.def Info: Imagenes/Config.png  used on input line 328.
 File: Imagenes/runprog.png Graphic file (type png)
 <use Imagenes/runprog.png>
 Package pdftex.def Info: Imagenes/runprog.png  used on input line 333.
-(pdftex.def)             Requested size: 500.484pt x 110.87929pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+(pdftex.def)             Requested size: 400.38872pt x 88.70409pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
 [21 <./Imagenes/Config.PNG> <./Imagenes/runprog.PNG>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
  (./GuiaRadiant.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `GuiaRadiant.out' has not changed.
 (rerunfilecheck)             Checksum: E70146F94ECF1A607F038B295987DF28;1093.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
  8958 strings out of 492616
@@ -694,7 +694,7 @@ t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb>
-Output written on GuiaRadiant.pdf (22 pages, 1964679 bytes).
+Output written on GuiaRadiant.pdf (22 pages, 1964751 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams

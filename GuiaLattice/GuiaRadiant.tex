@@ -274,7 +274,7 @@ Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de
  Una vez abierto el Device Constraint Editor se vera algo similar a lo observado en la siguiente figura:
  	\begin{figure}[H]
  	\centering
-	\includegraphics[height=9cm,width=16cm]{Imagenes/DeviceConstraintEditor.png}
+	\includegraphics[height=9cm,width=\textwidth]{Imagenes/DeviceConstraintEditor.png}
 	\caption{Vista de las señales de Verilog y sus pins correspondientes}
 	\end{figure}
  En esta ventana se puede cambiar que pin corresponde a una señal del modulo de Verilog mas alto en la jerarquía.Para realizar cambios solo hace falta hacer click en el campo de 'pin' correspondiente a una señal dada y cambiar el valor numérico.Antes del nombre de cada señal hay una flecha con una dirección y color determinado que indica si la señal es de input o de output.
@@ -282,8 +282,8 @@ Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de
  Hay que tener especial cuidado de asignar pins validos para las señales (utilizar los pins I/O).A continuación se presentan algunas tablas con la función de algunos pins de la FPGA que utiliza la cátedra(ICE40-UP5K).
  \begin{figure}[H]
  \centering
- \subfloat{\includegraphics[height=12cm,width=8cm]{Imagenes/SidePins.png}\label{fig:f1}}
- \subfloat{\includegraphics[height=10cm, width=7cm]{Imagenes/FrontPins.png}\label{fig:f2}}
+ \subfloat{\includegraphics[height=12cm,width=0.5\textwidth]{Imagenes/SidePins.png}\label{fig:f1}}
+ \subfloat{\includegraphics[height=10cm, width=0.5\textwidth]{Imagenes/FrontPins.png}\label{fig:f2}}
 	\end{figure}
 	
 
@@ -291,14 +291,14 @@ Para asignar que pin de la FPGA corresponde a que entrada y salida del modulo de
 Para cargar el programa en Verilog a la FPGA se deben seguir los pasos de síntesis, mappeo, routeo y exportación que aparecen arriba de la ventana de archivos.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=8cm, width=\textwidth]{Imagenes/SintesisRouteo.png}
+	\includegraphics[height=6cm, width=0.8\textwidth]{Imagenes/SintesisRouteo.png}
 	\end{figure}
 Se puede realizar cada uno de dichos pasos uno por vez o se puede elegir realizar todos clickeando el símbolo verde de play a la izquierda. Ya en el proceso de síntesis el compilador detectara posibles errores de sintaxis en el código de Verilog así como también los warnings.
 
 Si se desea ver en detalle los resultados de cada paso se puede ir a 'view' en la parte de arriba y luego seleccionar reports.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=8cm, width=10cm]{Imagenes/reports.png}
+	\includegraphics[height=8cm, width=\textwidth]{Imagenes/reports.png}
 	\caption{Ventana con los reportes con cada uno de los pasos efectuados}
 	\end{figure}
 	
@@ -312,7 +312,7 @@ Una vez que se consiguieron exitosamente los archivos de salida solo queda carga
 Al abrir el programmer con la FPGA ya conectada debería verse algo similar a la siguiente figura:
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=6cm, width=8cm]{Imagenes/Programmer.png}
+	\includegraphics[height=8cm, width=0.8\textwidth]{Imagenes/Programmer.png}
 	\caption{Ventana luego de abrir el programmer}
 	\end{figure}
 Como se puede ver en la figura anterior debería aparecer listada la FPGA que se conecto a la PC. Se puede seleccionar la opción 'Detect Cable' a la derecha para verificar que la computadora reconoció exitosamente la FPGA. Si se tiene problemas con este paso se puede intentar esperar un poco y luego volver a intentar con 'Detect Cable', si esto no funciona se puede probar conectando la FPGA a otro puerto USB de la PC.Por si acaso siempre es mejor conectar y desconectar la FPGA con el programador cerrado y luego volver a abrirlo.
@@ -320,7 +320,7 @@ Como se puede ver en la figura anterior debería aparecer listada la FPGA que se
 Ahora solo quedo configurar la FPGA.Para eso se debe seleccionar el dispositivo, luego edit y de ahí Device Properties.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[height=6cm, width=8cm]{Imagenes/EditProg.png}
+	\includegraphics[height=8cm, width=0.9\textwidth]{Imagenes/EditProg.png}
 	\end{figure}
 Configurar la ventana igual que como se muestra en la siguiente figura:
 	\begin{figure}[H]
@@ -330,7 +330,8 @@ Configurar la ventana igual que como se muestra en la siguiente figura:
 Para el programming file elegir el archivo con la extension '.bin' resultante de la exportación que se realizo antes de abrir el programmer.Finalmente solo queda subir el .bin a la FPGA seleccionando la opción 'Program Device' que aparece en la barra de arriba.
 	\begin{figure}[H]
  	\centering
-	\includegraphics[width=\textwidth]{Imagenes/runprog.png}
+	\includegraphics[width=0.8\textwidth]{Imagenes/runprog.png}
 	\end{figure}
+
 
 \end{document}
