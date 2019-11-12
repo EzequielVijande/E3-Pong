@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=RDivInf1 NewDesignator=RDInf1
+Change Component Designator: OldDesignator=RDivInf2 NewDesignator=RDInf2
+Change Component Designator: OldDesignator=RDivSup1 NewDesignator=RDSup1
+Change Component Designator: OldDesignator=RDivSup2 NewDesignator=RDSup2
+Change Component Designator: OldDesignator=RDSwitch NewDesignator=RDSw
+Change Component Designator: OldDesignator=RSwitch NewDesignator=RSw

@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=DS1 Old DesignItemId=DISPLAY 7SEG K New DesignItemId=HDSP-316L
+Change Component Footprint: Designator=DS1 Old Footprint=DISPLAY_LED_0.3" New Footprint=F-10
+Change Component Comment : Designator=DS1 Old Comment=DISPLAY 7SEG K New Comment=HDSP-316L
